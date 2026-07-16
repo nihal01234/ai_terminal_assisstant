@@ -1,0 +1,400 @@
+list running processes | tasklist
+kill process by PID | taskkill /PID {pid} /F
+kill process by name | taskkill /IM {process_name}.exe /F
+check firewall status | netsh advfirewall show allprofiles
+show current directory | cd
+list directory contents | dir
+ping a host | ping {host}
+display ip configuration | ipconfig
+release ip address | ipconfig /release
+renew ip address | ipconfig /renew
+flush dns cache | ipconfig /flushdns
+display dns cache | ipconfig /displaydns
+check system info | systeminfo
+check disk space | wmic logicaldisk get size,freespace,caption
+list network connections | netstat
+list active TCP connections | netstat -an
+scan open ports | netstat -an | find "LISTEN"
+display routing table | route print
+map a network drive | net use {drive_letter}: \\{network_path}
+disconnect network drive | net use {drive_letter}: /delete
+open task manager | taskmgr
+open control panel | control
+open device manager | devmgmt.msc
+open network connections | ncpa.cpl
+open system properties | sysdm.cpl
+open registry editor | regedit
+open command prompt as admin | runas /user:Administrator cmd
+list user accounts | net user
+add new user | net user {username} {password} /add
+delete a user | net user {username} /delete
+change user password | net user {username} {newpassword}
+show startup programs | wmic startup get caption, command
+list installed programs | wmic product get name
+check disk for errors | chkdsk
+schedule disk check | chkdsk /f /r
+defragment drive | defrag {drive_letter}:
+list running services | net start
+start a service | net start {service_name}
+stop a service | net stop {service_name}
+restart a service | net stop {service_name} && net start {service_name}
+check service configuration | sc qc {service_name}
+how do I renew ip address | ipconfig /renew
+how do I add new user | net user {username} {password} /add
+help me list active TCP connections | netstat -an
+help me kill process by PID | taskkill /PID {pid} /F
+want to list running processes | tasklist
+need to flush dns cache | ipconfig /flushdns
+need to stop a service | net stop {service_name}
+how do I restart a service | net stop {service_name} && net start {service_name}
+can you display routing table | route print
+how do I list active TCP connections | netstat -an
+please show startup programs | wmic startup get caption, command
+need to schedule disk check | chkdsk /f /r
+need to flush dns cache | ipconfig /flushdns
+can you display routing table | route print
+want to start a service | net start {service_name}
+please list network connections | netstat
+show me how to open registry editor | regedit
+need to show startup programs | wmic startup get caption, command
+show me how to show current directory | cd
+show me how to open system properties | sysdm.cpl
+want to list user accounts | net user
+show me how to display ip configuration | ipconfig
+want to defragment drive | defrag {drive_letter}:
+can you show startup programs | wmic startup get caption, command
+can you open control panel | control
+how do I delete a user | net user {username} /delete
+help me start a service | net start {service_name}
+show me how to delete a user | net user {username} /delete
+help me open system properties | sysdm.cpl
+show me how to display dns cache | ipconfig /displaydns
+how do I ping a host | ping {host}
+want to check firewall status | netsh advfirewall show allprofiles
+want to delete a user | net user {username} /delete
+can you delete a user | net user {username} /delete
+need to display dns cache | ipconfig /displaydns
+need to open control panel | control
+help me map a network drive | net use {drive_letter}: \\{network_path}
+can you display ip configuration | ipconfig
+how do I check service configuration | sc qc {service_name}
+show me how to open network connections | ncpa.cpl
+how do I check system info | systeminfo
+want to check service configuration | sc qc {service_name}
+how do I flush dns cache | ipconfig /flushdns
+need to restart a service | net stop {service_name} && net start {service_name}
+help me check service configuration | sc qc {service_name}
+show me how to list network connections | netstat
+can you check system info | systeminfo
+show me how to list installed programs | wmic product get name
+can you open control panel | control
+how do I show startup programs | wmic startup get caption, command
+show me how to check system info | systeminfo
+show me how to list running processes | tasklist
+how do I list user accounts | net user
+want to check firewall status | netsh advfirewall show allprofiles
+show me how to open registry editor | regedit
+need to release ip address | ipconfig /release
+show me how to list active TCP connections | netstat -an
+how do I check system info | systeminfo
+show me how to open system properties | sysdm.cpl
+can you kill process by name | taskkill /IM {process_name}.exe /F
+please scan open ports | netstat -an | find "LISTEN"
+need to schedule disk check | chkdsk /f /r
+show me how to check system info | systeminfo
+show me how to renew ip address | ipconfig /renew
+how do I list directory contents | dir
+please list active TCP connections | netstat -an
+how do I check system info | systeminfo
+show me how to schedule disk check | chkdsk /f /r
+can you flush dns cache | ipconfig /flushdns
+help me kill process by PID | taskkill /PID {pid} /F
+please open command prompt as admin | runas /user:Administrator cmd
+please check firewall status | netsh advfirewall show allprofiles
+please kill process by name | taskkill /IM {process_name}.exe /F
+please change user password | net user {username} {newpassword}
+show me how to defragment drive | defrag {drive_letter}:
+how do I list running processes | tasklist
+help me open device manager | devmgmt.msc
+help me stop a service | net stop {service_name}
+need to list network connections | netstat
+help me stop a service | net stop {service_name}
+please release ip address | ipconfig /release
+need to show startup programs | wmic startup get caption, command
+need to show current directory | cd
+help me check system info | systeminfo
+please list active TCP connections | netstat -an
+help me open device manager | devmgmt.msc
+can you show current directory | cd
+how do I show current directory | cd
+help me display ip configuration | ipconfig
+help me open registry editor | regedit
+can you list user accounts | net user
+can you open device manager | devmgmt.msc
+need to renew ip address | ipconfig /renew
+help me list directory contents | dir
+need to flush dns cache | ipconfig /flushdns
+please start a service | net start {service_name}
+need to kill process by name | taskkill /IM {process_name}.exe /F
+help me list user accounts | net user
+how do I renew ip address | ipconfig /renew
+can you ping a host | ping {host}
+show me how to check firewall status | netsh advfirewall show allprofiles
+want to map a network drive | net use {drive_letter}: \\{network_path}
+can you schedule disk check | chkdsk /f /r
+need to disconnect network drive | net use {drive_letter}: /delete
+want to open command prompt as admin | runas /user:Administrator cmd
+help me show current directory | cd
+need to check firewall status | netsh advfirewall show allprofiles
+how do I check firewall status | netsh advfirewall show allprofiles
+help me start a service | net start {service_name}
+need to flush dns cache | ipconfig /flushdns
+please change user password | net user {username} {newpassword}
+show me how to open network connections | ncpa.cpl
+can you flush dns cache | ipconfig /flushdns
+how do I display dns cache | ipconfig /displaydns
+want to scan open ports | netstat -an | find "LISTEN"
+how do I open task manager | taskmgr
+need to display routing table | route print
+want to delete a user | net user {username} /delete
+show me how to renew ip address | ipconfig /renew
+please kill process by PID | taskkill /PID {pid} /F
+want to delete a user | net user {username} /delete
+want to list network connections | netstat
+can you list network connections | netstat
+show me how to list user accounts | net user
+how do I change user password | net user {username} {newpassword}
+how do I check firewall status | netsh advfirewall show allprofiles
+please check system info | systeminfo
+show me how to renew ip address | ipconfig /renew
+need to show current directory | cd
+want to map a network drive | net use {drive_letter}: \\{network_path}
+can you open registry editor | regedit
+need to open command prompt as admin | runas /user:Administrator cmd
+please flush dns cache | ipconfig /flushdns
+show me how to ping a host | ping {host}
+can you release ip address | ipconfig /release
+help me open task manager | taskmgr
+help me list directory contents | dir
+can you open system properties | sysdm.cpl
+help me show current directory | cd
+can you list running services | net start
+help me list user accounts | net user
+show me how to stop a service | net stop {service_name}
+can you restart a service | net stop {service_name} && net start {service_name}
+can you open network connections | ncpa.cpl
+how do I list active TCP connections | netstat -an
+how do I kill process by PID | taskkill /PID {pid} /F
+how do I check firewall status | netsh advfirewall show allprofiles
+show me how to map a network drive | net use {drive_letter}: \\{network_path}
+show me how to list directory contents | dir
+show me how to release ip address | ipconfig /release
+please schedule disk check | chkdsk /f /r
+can you list network connections | netstat
+show me how to list installed programs | wmic product get name
+need to show startup programs | wmic startup get caption, command
+can you renew ip address | ipconfig /renew
+show me how to flush dns cache | ipconfig /flushdns
+can you disconnect network drive | net use {drive_letter}: /delete
+need to check disk for errors | chkdsk
+help me disconnect network drive | net use {drive_letter}: /delete
+want to list directory contents | dir
+show me how to scan open ports | netstat -an | find "LISTEN"
+can you check service configuration | sc qc {service_name}
+show me how to scan open ports | netstat -an | find "LISTEN"
+show me how to check disk for errors | chkdsk
+help me display ip configuration | ipconfig
+please list installed programs | wmic product get name
+want to kill process by PID | taskkill /PID {pid} /F
+want to disconnect network drive | net use {drive_letter}: /delete
+need to list network connections | netstat
+want to display routing table | route print
+want to list running processes | tasklist
+need to map a network drive | net use {drive_letter}: \\{network_path}
+want to display ip configuration | ipconfig
+show me how to open system properties | sysdm.cpl
+please kill process by name | taskkill /IM {process_name}.exe /F
+show me how to show current directory | cd
+help me ping a host | ping {host}
+help me display ip configuration | ipconfig
+help me disconnect network drive | net use {drive_letter}: /delete
+want to check disk space | wmic logicaldisk get size,freespace,caption
+can you list installed programs | wmic product get name
+show me how to check firewall status | netsh advfirewall show allprofiles
+how do I display ip configuration | ipconfig
+help me disconnect network drive | net use {drive_letter}: /delete
+can you open network connections | ncpa.cpl
+want to display ip configuration | ipconfig
+need to list running processes | tasklist
+please open command prompt as admin | runas /user:Administrator cmd
+please show startup programs | wmic startup get caption, command
+show me how to open task manager | taskmgr
+please check firewall status | netsh advfirewall show allprofiles
+how do I open registry editor | regedit
+help me show startup programs | wmic startup get caption, command
+help me open system properties | sysdm.cpl
+need to show startup programs | wmic startup get caption, command
+please renew ip address | ipconfig /renew
+how do I scan open ports | netstat -an | find "LISTEN"
+need to schedule disk check | chkdsk /f /r
+want to show startup programs | wmic startup get caption, command
+can you list running processes | tasklist
+can you display dns cache | ipconfig /displaydns
+need to list network connections | netstat
+help me defragment drive | defrag {drive_letter}:
+need to disconnect network drive | net use {drive_letter}: /delete
+how do I add new user | net user {username} {password} /add
+help me flush dns cache | ipconfig /flushdns
+need to defragment drive | defrag {drive_letter}:
+want to kill process by PID | taskkill /PID {pid} /F
+need to restart a service | net stop {service_name} && net start {service_name}
+want to ping a host | ping {host}
+need to display ip configuration | ipconfig
+how do I check disk for errors | chkdsk
+help me list active TCP connections | netstat -an
+show me how to list directory contents | dir
+need to flush dns cache | ipconfig /flushdns
+want to open system properties | sysdm.cpl
+show me how to scan open ports | netstat -an | find "LISTEN"
+can you schedule disk check | chkdsk /f /r
+help me show current directory | cd
+need to start a service | net start {service_name}
+want to list running services | net start
+can you display routing table | route print
+please list network connections | netstat
+can you release ip address | ipconfig /release
+can you change user password | net user {username} {newpassword}
+can you list running processes | tasklist
+want to open registry editor | regedit
+can you check firewall status | netsh advfirewall show allprofiles
+can you start a service | net start {service_name}
+want to stop a service | net stop {service_name}
+please open command prompt as admin | runas /user:Administrator cmd
+how do I list running processes | tasklist
+show me how to list directory contents | dir
+need to kill process by PID | taskkill /PID {pid} /F
+want to add new user | net user {username} {password} /add
+can you check disk for errors | chkdsk
+want to open system properties | sysdm.cpl
+please schedule disk check | chkdsk /f /r
+how do I open command prompt as admin | runas /user:Administrator cmd
+help me scan open ports | netstat -an | find "LISTEN"
+need to open device manager | devmgmt.msc
+please list directory contents | dir
+can you scan open ports | netstat -an | find "LISTEN"
+please add new user | net user {username} {password} /add
+how do I disconnect network drive | net use {drive_letter}: /delete
+how do I list network connections | netstat
+how do I list user accounts | net user
+how do I display ip configuration | ipconfig
+help me check disk for errors | chkdsk
+want to scan open ports | netstat -an | find "LISTEN"
+need to renew ip address | ipconfig /renew
+help me list user accounts | net user
+please list directory contents | dir
+show me how to list user accounts | net user
+how do I display ip configuration | ipconfig
+want to kill process by PID | taskkill /PID {pid} /F
+need to open system properties | sysdm.cpl
+how do I check disk space | wmic logicaldisk get size,freespace,caption
+please display ip configuration | ipconfig
+want to open system properties | sysdm.cpl
+need to defragment drive | defrag {drive_letter}:
+can you list active TCP connections | netstat -an
+need to delete a user | net user {username} /delete
+please list running services | net start
+help me restart a service | net stop {service_name} && net start {service_name}
+can you open command prompt as admin | runas /user:Administrator cmd
+help me kill process by name | taskkill /IM {process_name}.exe /F
+need to show startup programs | wmic startup get caption, command
+help me disconnect network drive | net use {drive_letter}: /delete
+please check disk space | wmic logicaldisk get size,freespace,caption
+help me check service configuration | sc qc {service_name}
+how do I open command prompt as admin | runas /user:Administrator cmd
+please list running processes | tasklist
+can you restart a service | net stop {service_name} && net start {service_name}
+need to check firewall status | netsh advfirewall show allprofiles
+can you kill process by PID | taskkill /PID {pid} /F
+how do I list running processes | tasklist
+please kill process by name | taskkill /IM {process_name}.exe /F
+need to scan open ports | netstat -an | find "LISTEN"
+help me scan open ports | netstat -an | find "LISTEN"
+help me kill process by PID | taskkill /PID {pid} /F
+show me how to list installed programs | wmic product get name
+want to renew ip address | ipconfig /renew
+show me how to defragment drive | defrag {drive_letter}:
+show me how to check service configuration | sc qc {service_name}
+need to display ip configuration | ipconfig
+want to check disk for errors | chkdsk
+please check system info | systeminfo
+help me scan open ports | netstat -an | find "LISTEN"
+please display ip configuration | ipconfig
+please add new user | net user {username} {password} /add
+please flush dns cache | ipconfig /flushdns
+show me how to change user password | net user {username} {newpassword}
+need to change user password | net user {username} {newpassword}
+can you list directory contents | dir
+need to open command prompt as admin | runas /user:Administrator cmd
+can you list user accounts | net user
+how do I scan open ports | netstat -an | find "LISTEN"
+want to defragment drive | defrag {drive_letter}:
+how do I check disk space | wmic logicaldisk get size,freespace,caption
+want to list directory contents | dir
+can you show startup programs | wmic startup get caption, command
+want to list active TCP connections | netstat -an
+can you release ip address | ipconfig /release
+can you map a network drive | net use {drive_letter}: \\{network_path}
+show me how to list running services | net start
+please list directory contents | dir
+can you list active TCP connections | netstat -an
+please defragment drive | defrag {drive_letter}:
+want to list network connections | netstat
+please start a service | net start {service_name}
+need to list network connections | netstat
+please show startup programs | wmic startup get caption, command
+show me how to display dns cache | ipconfig /displaydns
+please start a service | net start {service_name}
+show me how to kill process by PID | taskkill /PID {pid} /F
+want to defragment drive | defrag {drive_letter}:
+need to check firewall status | netsh advfirewall show allprofiles
+how do I change user password | net user {username} {newpassword}
+can you list running services | net start
+want to check disk space | wmic logicaldisk get size,freespace,caption
+want to list network connections | netstat
+can you kill process by name | taskkill /IM {process_name}.exe /F
+want to open registry editor | regedit
+how do I display ip configuration | ipconfig
+want to list active TCP connections | netstat -an
+help me open command prompt as admin | runas /user:Administrator cmd
+want to open control panel | control
+need to stop a service | net stop {service_name}
+need to check service configuration | sc qc {service_name}
+want to list directory contents | dir
+can you list directory contents | dir
+please open system properties | sysdm.cpl
+can you list installed programs | wmic product get name
+can you open task manager | taskmgr
+help me flush dns cache | ipconfig /flushdns
+need to list active TCP connections | netstat -an
+want to list installed programs | wmic product get name
+help me stop a service | net stop {service_name}
+can you start a service | net start {service_name}
+please renew ip address | ipconfig /renew
+want to check system info | systeminfo
+show me how to open system properties | sysdm.cpl
+can you change user password | net user {username} {newpassword}
+please ping a host | ping {host}
+help me open registry editor | regedit
+please display ip configuration | ipconfig
+how do I kill process by PID | taskkill /PID {pid} /F
+want to kill process by name | taskkill /IM {process_name}.exe /F
+please open command prompt as admin | runas /user:Administrator cmd
+please stop a service | net stop {service_name}
+need to check service configuration | sc qc {service_name}
+need to check system info | systeminfo
+can you restart a service | net stop {service_name} && net start {service_name}
+how do I open network connections | ncpa.cpl
+how do I check firewall status | netsh advfirewall show allprofiles
+how do I list user accounts | net user
+how do I show startup programs | wmic startup get caption, command
+need to list directory contents | dir
