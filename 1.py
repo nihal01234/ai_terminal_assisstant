@@ -32,7 +32,7 @@ class CommandHistory:
         self.ensure_history_file()
         try:
             
-            self.gemini_api_key = "AIzaSyBAn17HEp1fQJT_7L0BxZw3TTOh99HHcsk"
+            self.gemini_api_key = "//Type in your gemini API key here"
             self.gemini_api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
             
             
